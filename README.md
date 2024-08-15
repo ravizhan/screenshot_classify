@@ -34,9 +34,14 @@
 
 请将图片归类放入对应的文件夹内，文件名统一为 `MD5hash` ，以避免重名，文件格式接受 `JPG` 和 `PNG`。
 
+**注意**：请确保您提交的图片**已脱敏**且**无版权问题**，您的图片将仅会用于训练目的。
+
 ## 鸣谢
 
 感谢 [ultralytics](https://github.com/ultralytics/ultralytics) 提供yolov8预训练模型
 
 感谢[所有贡献者](https://github.com/ravizhan/screenshot_classify/graphs/contributors)，无论您是提供了图片或是代码
 
+## 协议
+
+本项目遵循 [AGPL-3.0协议](https://github.com/ravizhan/screenshot_classify#AGPL-3.0-1-ov-file) 开源，请自觉遵守。
