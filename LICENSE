@@ -1,3 +1,38 @@
+screenshot_classify Basic License
+
+  If you use this Repo, it is assumed that you have read and agreed to
+this License, and it is assumed that you have read and agreed to the GNU
+AGPL v3 License.In the event of a conflict between this License and the 
+GNU AGPL v3, this License shall prevail.
+
+1. This repo inevitably submits some copyrighted content. If you find any, 
+please notify us through Issues and we will remove it as soon as possible. 
+Such copyrighted content does not inherit GNU AGPL v3.
+
+2. Use the training source provided by this Repo to merge or selectively 
+merge into the training source of other models. The merged content needs
+to inherit this license.
+
+3. Training material submitted to this repo will be treated as if the submitter
+shared copyright in the project, unless the submitter does not own copyright
+in the copyrighted material, in which case the first section of this license will apply.
+
+4. The project leader is not responsible for any possible leakage of training 
+materials submitted to this repo if sensitive information is not removed.
+
+5. The person in charge of this project has the final right of interpretation 
+for the model trained by the training materials provided in this repo,
+and the person in charge of this project has the right to dispose of the
+materials used in this project.
+
+6. The repo owners reserve the right to change the license without notifying
+downstream users.
+
+The final right of interpretation belongs to the project leader.
+
+
+
+
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
