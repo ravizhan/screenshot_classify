@@ -44,4 +44,4 @@
 
 ## 协议
 
-本项目在带有[附加条款](https://github.com/ravizhan/screenshot_classify/blob/with-supplementary-terms-pictures/LICENSE)的情形下 遵循 [AGPL-3.0协议](https://github.com/ravizhan/screenshot_classify#AGPL-3.0-1-ov-file) 开源，请自觉遵守。
+本项目在带有 [附加条款](https://github.com/ravizhan/screenshot_classify/LICENSE) 的情形下，遵循 [AGPL-3.0协议](https://github.com/ravizhan/screenshot_classify?tab=License-1-ov-file) 开源，请自觉遵守。
