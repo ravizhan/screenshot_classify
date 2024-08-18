@@ -6,14 +6,13 @@ import os
 
 tag = {0: 'cameracap', 1: 'others', 2: 'screenshot'}
 
-session = onnxruntime.InferenceSession("best-dynamic.onnx")
+session = onnxruntime.InferenceSession("best-int8.onnx")
 model_inputs = session.get_inputs()
 
 filenames = os.listdir(r'./test_img')
 for file in filenames:
     img = cv2.cvtColor(cv2.imread("./test_img/"+file), cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, (1024, 1024))
-    # cv2.imwrite("test.png", img)
     image_data = np.array(img) / 255.0
     image_data = np.transpose(image_data, (2, 0, 1))
     image_data = np.expand_dims(image_data, axis=0).astype(np.float32)
