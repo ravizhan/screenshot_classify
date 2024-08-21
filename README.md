@@ -10,13 +10,14 @@
 模型会将图片分为三类
 
 - cameracap: 拍屏
-
 - others: 啥也不是
 - screenshot: 截图
 
+增设二分类模型，只区分是否为拍屏，准确率较高。分别为 `best-2cls.pt` `best-2cls.onnx` `best-int8-2cls.onnx` 。
+
 ## 使用
 
-- 下载训练好的模型 [123云盘](https://www.123pan.com/s/0kF9-el5i) 
+- 从 [release](https://github.com/ravizhan/screenshot_classify/releases) 下载训练好的模模型
 
 - 将测试图片放入 `test_img` 目录下
 
